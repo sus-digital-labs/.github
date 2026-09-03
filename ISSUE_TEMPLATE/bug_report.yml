@@ -1,0 +1,54 @@
+name: Bug Report
+description: Create a report to help us improve
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **WARNING:** Do not include any real patient data, CPF, CNS, or private credentials.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: What version of the software are you running?
+  - type: input
+    id: os
+    attributes:
+      label: Operating System
+      description: e.g. Ubuntu 22.04, Windows 11
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed Behavior
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sanitized Logs
+      description: Paste any relevant logs here. Ensure no sensitive data is included.
+      render: shell
+  - type: checkboxes
+    id: security_check
+    attributes:
+      label: Security & Privacy Confirmation
+      options:
+        - label: I confirm that this report contains no patient data, credentials, tokens, private certificates, database dumps or other sensitive information.
+          required: true
