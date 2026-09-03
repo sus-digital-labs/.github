@@ -36,10 +36,10 @@ We believe public-interest software benefits from transparent engineering, repro
 Technical decisions are made via public issues and Pull Requests. Significant changes require discussion and maintainer review. Security matters strictly follow our responsible disclosure policy.
 
 ## Contributing
-Contributions are welcome. See our [CONTRIBUTING.md](CONTRIBUTING.md).
+Contributions are welcome. See our [CONTRIBUTING.md](https://github.com/sus-digital-labs/.github/blob/main/CONTRIBUTING.md).
 
 ## Security
-Please **do not** report vulnerabilities or sensitive health information through public issues. See [SECURITY.md](SECURITY.md).
+Please **do not** report vulnerabilities or sensitive health information through public issues. See [SECURITY.md](https://github.com/sus-digital-labs/.github/security/policy).
 
 ## About
 SUS Digital Labs is an independent open-source initiative and is not an official organization of Brazil's Ministry of Health or the Sistema Único de Saúde (SUS).
